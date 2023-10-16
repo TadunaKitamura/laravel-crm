@@ -69,12 +69,12 @@ Inertia.put(route('items.update', { item: id}), form)
 
           <div class="p-2 w-full">
           <div class="relative">
-            <label for="is_selling" class="leading-7 text-sm text-gray-600">販売状況</label>
+            <label class="leading-7 text-sm text-gray-600">販売状況</label>
             <br>
-            <input type="radio" name="is_selling" v-model="form.is_selling" value="1">
-            <label class="ml-2 mr-4">販売中</label>
-            <input type="radio" name="is_selling" v-model="form.is_selling" value="0">
-            <label class="ml-2 mr-4">停止中</label>
+            <input type="radio"  id="is_selling1" name="is_selling" v-model="form.is_selling" value="1">
+            <label for="is_selling1" class="ml-2 mr-4">販売中</label>
+            <input type="radio" id="is_selling0" name="is_selling" v-model="form.is_selling" value="0">
+            <label for="is_selling0" class="ml-2 mr-4">停止中</label>
           </div>
           </div>
 
