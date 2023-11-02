@@ -1,10 +1,10 @@
 <script setup>
-import BreezeAuthenticatedLayout from '@/Layouts/Authenticated.vue';
-import { Head } from '@inertiajs/inertia-vue3';
-import { onMounted, reactive, ref, computed } from 'vue'
-import { Inertia } from '@inertiajs/inertia'
-import BreezeValidationErrors from '@/Components/ValidationErrors.vue';
-import { getToday } from '@/common'
+// import BreezeAuthenticatedLayout from '@/Layouts/Authenticated.vue';
+// import { Head } from '@inertiajs/inertia-vue3';
+// import { onMounted, reactive, ref, computed } from 'vue'
+// import { Inertia } from '@inertiajs/inertia'
+// import BreezeValidationErrors from '@/Components/ValidationErrors.vue';
+// import { getToday } from '@/common'
 // import MicroModal from '@/Components/MicroModal.vue'
 
 const props = defineProps({
